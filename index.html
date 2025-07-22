@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SONY</title>
+    <link rel="stylesheet" href="camera.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <section class="container-fluid p-0">
+    <header class="sticky-top border-2" id="head">        
+        <div class="navbar navbar-expand-lg bg-light " >
+            <div class="w-25"><a href="#hero" class="nav-link"><img src="assets/logo1.jpeg" alt="" class="w-100"></a></div>
+            <button class="navbar-toggler" data-bs-target="#navigation" data-bs-toggle="collapse"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse justify-content-end" id="navigation">
+                <div class="navbar-nav">
+                    <div class="nav-item p-1">
+                        <a href="#benifits" class="nav-link">BENIFITS</a>
+                    </div>
+                    <div class="nav-item p-1">
+                        <a href="#vision" class="nav-link">VISION</a>
+                    </div>
+                    <div class="nav-item p-1">
+                        <a href="#myslide" class="nav-link">REVIEW</a>
+                    </div>
+                    <div class="nav-item p-1">
+                        <a href="#login" class="nav-link">LOGIN</a>
+                    </div>
+                    <div class="nav-item p-1">
+                        <a href="profile.html" class="nav-link ">PROFILE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid p-0" id="hero">
+        <div class="hero">
+            <div class="w-50 m-4">
+                <h1>Unleash Your Vision<br> with the Sony Alpha 7 IV</h1>
+                <p>Capture stunning 33MP images and cinematic 4K videos – wherever creativity strikes</p>
+                <button class="w-50 "> BUY NOW</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-black p-0" id="benifits">
+        <div class="row">
+            <div class="col-9 pt-3">
+                <div class="benifits pe-5 ">
+                    <div>
+                    <h6>33MP Full-frame Sensor</h6>
+                    <h6>Real-time Eye Autofocus</h6> 
+                    <h6>4K 60fps Video</h6>
+                    <h6>-axis In-body Stabilization</h6>
+                    <h6>Dual Card Slots</h6>
+                    <h6>Weather-Sealed Body</h6>
+                    </div>
+                </div>
+                <div class="bottom pt-2">
+                    <img src="assets/email3.jpg" alt="" class="w-100">                    
+                </div>
+            </div>
+            <div class="col-3">
+                <div class='w-100 pt-3'>
+                    <video src="assets/camera1.mp4" muted loop autoplay class="w-100"></video>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+    <section class="container-fluid p-0 bg-black" id="vision">
+        <div class="profile  pb-3 text-light text-center">
+            <div class="p-5">
+                <h1>Top cameras for photos and videos</h1>
+                <p>A close‑up of a DSLR packed with tech, showcasing a photographer’s hands and gear in action</p>
+            </div>
+        <div class="row">
+            <div class="col-4">
+               <video src="assets/camera3.mp4" controls loop muted autoplay class="w-100"></video>
+            </div>
+            <div class="col-4">
+                <img src="assets/b.jpg"  id="slide" alt="" class="w-100 pb-4">
+                <img src="assets/email.jpg" id="slide1" alt="" class="w-100 ">
+            </div>
+            <div class="col-4">
+                <video src="assets/camera2.mp4" controls loop muted autoplay class="w-100 pb-4"></video>
+                <img src="assets/sony.webp" alt="" class="w-100">
+                
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="carousel slide" data-bs-ride="carousel" id="myslide">
+            <div class="carousel-indicators">
+                <button data-bs-target="#myslide" data-bs-slide-to="0" class="active"></button>
+                <button data-bs-target="#myslide" data-bs-slide-to="1"></button>
+                <button data-bs-target="#myslide" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="banner1">
+                        <div><img src="assets/p1.jpg" alt=""></div>
+                        <p>“The autofocus on my Sony A7 IV is unreal.<br> I’ve never missed a moment—even in low light!” </p>
+                        <p>– Sarah D., Portrait Photographer</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="banner2">
+                        <div><img src="assets/p3.jpg" alt=""></div>
+                        <p>“As a travel vlogger, the ZV-1 is everything I need in my pocket.<br> Crisp 4K, flip screen, and amazing mic quality.” </p>
+                        <p>– Omar J., YouTuber</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="banner3">
+                        <div>
+                             <img src="assets/p4.jpg"alt="">
+                        </div>
+                       
+                        <p>“I switched from DSLR to the Sony A7R V and the detail blew me away.<br> It's like seeing your photos in 8K.”</p>
+                        <p> – Paul L., Landscape Photographer</p>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#myslide" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+                <button class="carousel-control-next" data-bs-target="#myslide" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+            </div>
+        </section>
+        <section class="container-fluid p-0" id="login">
+            <div class="">
+                <div class="text-light text-center">
+                    <h1>Travel Bundle Offer<br> Sony A7C II + Lens + Dual Battery Pack</h1>
+                    <p>Your ideal travel setup. Compact, powerful, and ready to go.</p>
+                    <p>“Every frame is a story. Log in and capture yours.”</p>
+                    <form>
+                        <input type="email" placeholder="ENTER EMAIL" class="w-50 h-50">
+                        <input type="submit">
+                    </form>
+                </div>
+            </div>
+        </section>
+    
+    <section class="bg-black text-light border-2 border-top">
+    <div class="text-center my-3"><i class="bi bi-facebook"></i>   <i class="bi bi-twitter"></i>   <i class="bi bi-instagram"></i>   <i class="bi bi-youtube"></i></div>
+    <div class="row justify-content-center">
+        <div class="col-6 ">
+            <h3 >CONTACT SUPPORT</h3>
+            <P><i class="bi bi-geo-alt"></i> Tilaknagar Road, Andhra Oriental College,<br> Tilak Nagar, Hyderabad, Telangana 500044</P>
+            <P><i class="bi bi-telephone"></i> 9876543210</P>
+            <P><i class="bi bi-envelope"></i> vaishnavinamala7@gmail.com</P>
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(()=>{
+            $('#slide').hide()
+            $('#slide').fadeToggle(5000)
+            $('#slide1').hide()
+            $('#slide1').fadeToggle(5000)
+           
+        })
+    </script>
+    
+    </section>
+</body>
+</html>
